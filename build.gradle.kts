@@ -11,4 +11,7 @@ repositories {
 
 dependencies {
     implementation(kotlin("stdlib"))
+
+    implementation("io.ktor:ktor-client-core:2.1.0")
+    implementation("io.ktor:ktor-client-java:2.1.0")
 }
