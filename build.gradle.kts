@@ -1,8 +1,8 @@
 plugins {
-    kotlin("jvm") version "1.5.31"
+    kotlin("jvm") version "1.7.10"
 }
 
-group = "me.brunojcm"
+group = "dev.bcmedeiros"
 version = "1.0-SNAPSHOT"
 
 repositories {
