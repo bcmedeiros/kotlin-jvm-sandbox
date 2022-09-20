@@ -12,6 +12,7 @@ repositories {
 
 dependencies {
     implementation(kotlin("stdlib"))
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.4")
 
     implementation("io.ktor:ktor-client-core:2.1.1")
     implementation("io.ktor:ktor-client-java:2.1.1")
@@ -19,4 +20,5 @@ dependencies {
     implementation("io.ktor:ktor-serialization-kotlinx-json:2.1.1")
 
     testImplementation(kotlin("test"))
+    testImplementation("org.jetbrains.kotlinx:kotlinx-coroutines-test:1.6.4")
 }
