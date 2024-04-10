@@ -1,6 +1,7 @@
 plugins {
-    kotlin("jvm") version "1.9.23"
-    kotlin("plugin.serialization") version "1.9.23"
+    val kotlinVersion = "1.9.23"
+    kotlin("jvm") version kotlinVersion
+    kotlin("plugin.serialization") version kotlinVersion
 }
 
 group = "dev.bcmedeiros"
