@@ -2,6 +2,9 @@ plugins {
     val kotlinVersion = "1.9.23"
     kotlin("jvm") version kotlinVersion
     kotlin("plugin.serialization") version kotlinVersion
+    // this plugin seems to interfere with the serialization one
+    // even though this plugin is not used, if we remove it, the issue is gone
+    kotlin("plugin.spring") version kotlinVersion
 }
 
 group = "dev.bcmedeiros"
